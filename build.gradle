@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile (
+        'org.springframework:spring-core:4.1.2.RELEASE',
+        'org.springframework:spring-webmvc:4.1.2.RELEASE',
+        'org.springframework.data:spring-data-jpa:1.7.1.RELEASE'
+    )
+
+}
