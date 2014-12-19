@@ -1,4 +1,4 @@
-package com.warhammer.build;
+package com.warhammer.build.model;
 
 /**
  * Created by awest on 12/2/14.

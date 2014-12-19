@@ -1,4 +1,6 @@
-package com.warhammer.build;
+package com.warhammer.build.model;
+
+import com.warhammer.build.SpecialRuleEnum;
 
 import java.util.ArrayList;
 import java.util.List;

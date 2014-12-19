@@ -1,15 +1,16 @@
 package com.warhammer.build.Army;
 
-import org.springframework.stereotype.Repository;
+import com.warhammer.build.BaseRepository;
 
 import java.util.List;
 
 /**
  * Created by awest on 12/19/14.
  */
-public interface ArmyRepository<Army, Integer> extends Repository<Army, Integer> {
+public interface ArmyRepository extends BaseRepository<Army, Integer>{
 
-    Army findOne(Integer id);
-    List<Army> findAll();
-    Army save(Army army);
+    public List<Army> findByArmyAffiliation(ArmyAffiliation armyAffiliation);
+    public List<Army> findByAllowedPoints(int allowedPoints);
+    public Army findByName(String name);
+
 }

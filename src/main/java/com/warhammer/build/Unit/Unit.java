@@ -1,7 +1,7 @@
 package com.warhammer.build.Unit;
 
 import com.warhammer.build.Army.ArmyAffiliation;
-import com.warhammer.build.Model;
+import com.warhammer.build.model.Model;
 
 import java.util.List;
 
@@ -16,6 +16,7 @@ public class Unit {
     private Model musician;
     private ArmyAffiliation affiliation;
     private UnitType unitType;
+    private Integer id;
 
     public List<Model> getModels() {
         return models;
@@ -71,5 +72,13 @@ public class Unit {
 
     public void setUnitType(UnitType unitType) {
         this.unitType = unitType;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }
