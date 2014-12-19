@@ -1,4 +1,4 @@
-package com.warhammer.build.Army;
+package com.warhammer.build.army;
 
 import com.warhammer.build.BaseRepository;
 

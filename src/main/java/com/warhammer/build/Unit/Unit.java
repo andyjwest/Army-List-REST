@@ -1,6 +1,6 @@
-package com.warhammer.build.Unit;
+package com.warhammer.build.unit;
 
-import com.warhammer.build.Army.ArmyAffiliation;
+import com.warhammer.build.army.ArmyAffiliation;
 import com.warhammer.build.model.Model;
 
 import java.util.List;

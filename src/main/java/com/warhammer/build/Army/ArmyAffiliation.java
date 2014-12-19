@@ -1,4 +1,4 @@
-package com.warhammer.build.Army;
+package com.warhammer.build.army;
 
 /**
  * Created by awest on 12/2/14.

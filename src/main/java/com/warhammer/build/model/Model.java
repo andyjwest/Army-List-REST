@@ -1,6 +1,6 @@
 package com.warhammer.build.model;
 
-import com.warhammer.build.Army.ArmyAffiliation;
+import com.warhammer.build.army.ArmyAffiliation;
 import com.warhammer.build.SpecialRuleEnum;
 
 import java.util.ArrayList;

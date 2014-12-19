@@ -1,4 +1,4 @@
-package com.warhammer.build.Unit;
+package com.warhammer.build.unit;
 
 import org.springframework.stereotype.Controller;
 

@@ -1,4 +1,4 @@
-package com.warhammer.build.Unit;
+package com.warhammer.build.unit;
 
 /**
  * Created by awest on 12/18/14.

@@ -1,7 +1,7 @@
-package com.warhammer.build.Army;
+package com.warhammer.build.army;
 
-import com.warhammer.build.Unit.Unit;
-import com.warhammer.build.Unit.UnitType;
+import com.warhammer.build.unit.Unit;
+import com.warhammer.build.unit.UnitType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

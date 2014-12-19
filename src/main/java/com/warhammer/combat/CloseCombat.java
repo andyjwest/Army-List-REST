@@ -1,6 +1,6 @@
 package com.warhammer.combat;
 
-import com.warhammer.build.Unit.Unit;
+import com.warhammer.build.unit.Unit;
 
 import java.util.List;
 
