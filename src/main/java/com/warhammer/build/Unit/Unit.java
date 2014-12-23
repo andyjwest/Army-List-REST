@@ -81,4 +81,16 @@ public class Unit {
     public void setId(Integer id) {
         this.id = id;
     }
+
+    public void addModel(Model model){
+        models.add(model);
+    }
+
+    public void addBaseModel(int numberToAdd){
+
+    }
+
+    public void addNewModel(){
+        Model model = new Model();
+    }
 }

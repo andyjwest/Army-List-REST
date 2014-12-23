@@ -6,6 +6,7 @@ package com.warhammer.build.model;
 public class Armor {
     private String name;
     private Integer armorSave;
+    private ArmorLocation armorLocation;
 
     public Integer getArmorSave() {
         return armorSave;
